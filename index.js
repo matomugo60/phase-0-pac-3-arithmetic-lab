@@ -25,6 +25,13 @@ function decrement(n) {
     return --n
 }
 
+n = "10";
+
 function makeInt(n) {
     return parseInt
 }
+
+function makeInt(n) {
+    return parseFloat
+}
+
