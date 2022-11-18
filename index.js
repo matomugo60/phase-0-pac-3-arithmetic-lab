@@ -18,20 +18,20 @@ function divide(a,b) {
 }
 
 function increment(n) {
-    return ++n
+    n++;
+    return n;
 }
 
 function decrement(n) {
-    return --n
-}
-
-n = "10";
-
-function makeInt(n) {
-    return parseInt
+    n--;
+    return n;
 }
 
 function makeInt(n) {
-    return parseFloat
+    return parseInt(n, 10)
+    
 }
 
+function preserveDecimal(n) {
+    return parseFloat(n,)
+}
